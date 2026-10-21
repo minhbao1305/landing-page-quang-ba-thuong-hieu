@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA EV - Kỷ Nguyên Di Chuyển Thông Minh</title>
+    <!-- Google Fonts: Plus Jakarta Sans & Orbitron -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-symbol"><i class="fa-solid fa-bolt-lightning"></i></span>
+                <span class="logo-text">AURA<span>.EV</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">Giới Thiệu</a>
+                <a href="#showcase" class="nav-link">Trưng Bày</a>
+                <a href="#features" class="nav-link">Tính Năng</a>
+                <a href="#gallery" class="nav-link">Bộ Sưu Tập</a>
+                <a href="#specs" class="nav-link">Thông Số</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#test-drive" class="btn-ghost">Lái Thử</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section" id="hero">
+            <!-- Background Elements -->
+            <div class="hero-bg-overlay"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+
+            <!-- Hero Main Content -->
+            <div class="hero-container">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">Next-Gen Intelligent EV 2026</span>
+                </div>
+
+                <h1 class="hero-title">
+                    ĐỊNH HÌNH TƯƠNG LAI<br>
+                    <span class="gradient-text">DI CHUYỂN THUẦN ĐIỆN</span>
+                </h1>
+
+                <p class="hero-description">
+                    Trải nghiệm sự kết hợp hoàn hảo giữa thiết kế khí động học viễn tưởng, 
+                    trí tuệ nhân tạo tự hành cấp độ 3 và khả năng tăng tốc không giới hạn.
+                </p>
+
+                <!-- Call to Action Buttons -->
+                <div class="hero-cta-group">
+                    <a href="#features" class="btn-gradient">
+                        <span>Khám phá ngay</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#gallery" class="btn-glass">
+                        <i class="fa-regular fa-circle-play"></i>
+                        <span>Xem thực tế</span>
+                    </a>
+                </div>
+
+                <!-- Vehicle Quick Specs Highlight -->
+                <div class="hero-specs-bar" id="specs">
+                    <div class="spec-item">
+                        <span class="spec-value">3.1<small>s</small></span>
+                        <span class="spec-label">0 - 100 km/h</span>
+                    </div>
+                    <div class="spec-divider"></div>
+                    <div class="spec-item">
+                        <span class="spec-value">720<small>km</small></span>
+                        <span class="spec-label">Quãng đường 1 lần sạc</span>
+                    </div>
+                    <div class="spec-divider"></div>
+                    <div class="spec-item">
+                        <span class="spec-value">15<small>phút</small></span>
+                        <span class="spec-label">Sạc siêu nhanh (10-80%)</span>
+                    </div>
+                    <div class="spec-divider"></div>
+                    <div class="spec-item">
+                        <span class="spec-value">AI 3.0</span>
+                        <span class="spec-label">Tự hành thông minh</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-text">Cuộn để khám phá</span>
+            </div>
+        </section>
+
+        <!-- SECTION 1: ABOUT (Khối Giới Thiệu) -->
+        <section class="section about-section reveal" id="about">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <div class="section-badge">
+                            <i class="fa-solid fa-atom"></i>
+                            <span>Về Thương Hiệu AURA</span>
+                        </div>
+                        <h2 class="section-title">
+                            Tiên Phong Đổi Mới,<br>
+                            <span class="gradient-text">Kiến Tạo Tương Lai Xanh</span>
+                        </h2>
+                        <p class="section-desc">
+                            AURA ra đời với sứ mệnh xóa bỏ ranh giới giữa nghệ thuật chế tác ô tô thượng đỉnh và công nghệ điện tử thông minh. Chúng tôi không chỉ chế tạo xe điện, mà đang xây dựng một biểu tượng sống cho phong cách di chuyển thuần khiết và bền vững.
+                        </p>
+
+                        <div class="about-pillars">
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-wind"></i></div>
+                                <div>
+                                    <h4>Khí Động Học Siêu Việt</h4>
+                                    <p>Hệ số cản gió kỷ lục chỉ 0.19 Cd giúp tối ưu hoá năng lượng vượt trội.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-leaf"></i></div>
+                                <div>
+                                    <h4>100% Vật Liệu Bền Vững</h4>
+                                    <p>Nội thất bọc da nhân tạo sinh học và sợi carbon tái chế cao cấp.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                                <div>
+                                    <h4>An Toàn Đạt Chuẩn 5 Sao</h4>
+                                    <p>Khung gầm hợp kim titan - nhôm gia cường bảo vệ hành khách tối đa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual">
+                        <div class="about-image-card">
+                            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop" alt="Khung gầm xe điện thông minh" loading="lazy">
+                            <div class="about-image-overlay">
+                                <span class="overlay-tag"><i class="fa-solid fa-microchip"></i> Nền Tảng Pure-EV 800V</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION: PRODUCT SHOWCASE (Khu Vực Trưng Bày Sản Phẩm Tương Tác) -->
+        <section class="section showcase-section reveal" id="showcase">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <div class="section-badge">
+                        <i class="fa-solid fa-palette"></i>
+                        <span>Studio Trưng Bày 360°</span>
+                    </div>
+                    <h2 class="section-title">
+                        Tùy Biến Sắc Màu Cá Tính
+                    </h2>
+                    <p class="section-desc">
+                        Lớp sơn quang phổ phản xạ nhiệt đa tầng Nano-Tech. Chọn màu sắc để ngắm nhìn vẻ đẹp tương lai của AURA Hyper GT.
+                    </p>
+                </div>
+
+                <!-- Product Showcase Area -->
+                <div class="showcase-wrapper">
+                    <!-- Stage & Large Product Image -->
+                    <div class="product-stage">
+                        <div class="stage-radial-light" id="stage-glow"></div>
+                        <div class="stage-pedestal"></div>
+                        <div class="image-wrapper">
+                            <img 
+                                src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=1400&auto=format&fit=crop" 
+                                alt="AURA Hyper GT - Đỏ Crimson" 
+                                id="product-main-image" 
+                                class="product-large-img"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Color Selection Controls -->
+                    <div class="color-picker-container">
+                        <div class="color-info-text">
+                            Phiên bản màu: <strong id="current-color-label">Đỏ Cyber Crimson</strong>
+                        </div>
+
+                        <!-- 3 Color Circles (Red, Black, White) -->
+                        <div class="color-options-group" role="radiogroup" aria-label="Chọn màu xe">
+                            <!-- Đỏ -->
+                            <button 
+                                type="button" 
+                                class="color-circle red active" 
+                                data-color="red"
+                                data-name="Đỏ Cyber Crimson"
+                                data-img="https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=1400&auto=format&fit=crop"
+                                data-glow="rgba(239, 68, 68, 0.45)"
+                                aria-label="Màu Đỏ Cyber Crimson"
+                                aria-checked="true"
+                            >
+                                <span class="circle-inner"></span>
+                                <span class="color-tooltip">Đỏ Crimson</span>
+                            </button>
+
+                            <!-- Đen -->
+                            <button 
+                                type="button" 
+                                class="color-circle black" 
+                                data-color="black"
+                                data-name="Đen Obsidian Stealth"
+                                data-img="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1400&auto=format&fit=crop"
+                                data-glow="rgba(0, 242, 254, 0.35)"
+                                aria-label="Màu Đen Obsidian Stealth"
+                                aria-checked="false"
+                            >
+                                <span class="circle-inner"></span>
+                                <span class="color-tooltip">Đen Obsidian</span>
+                            </button>
+
+                            <!-- Trắng -->
+                            <button 
+                                type="button" 
+                                class="color-circle white" 
+                                data-color="white"
+                                data-name="Trắng Polar Glacier"
+                                data-img="https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=1400&auto=format&fit=crop"
+                                data-glow="rgba(255, 255, 255, 0.4)"
+                                aria-label="Màu Trắng Polar Glacier"
+                                aria-checked="false"
+                            >
+                                <span class="circle-inner"></span>
+                                <span class="color-tooltip">Trắng Glacier</span>
+                            </button>
+                        </div>
+
+                        <div class="showcase-cta">
+                            <a href="#test-drive" class="btn-ghost">
+                                <i class="fa-solid fa-car-side"></i> Đặt lịch trải nghiệm phiên bản này
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: FEATURES (Khối Tính Năng Nổi Bật) -->
+        <section class="section features-section reveal" id="features">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <div class="section-badge">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Công Nghệ Tiên Phong</span>
+                    </div>
+                    <h2 class="section-title">
+                        Trải Nghiệm Vượt Xa Mọi Giới Hạn
+                    </h2>
+                    <p class="section-desc">
+                        Tích hợp những thành tựu trí tuệ nhân tạo và công nghệ năng lượng đột phá nhất hành tinh.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature Card 1 -->
+                    <div class="feature-card reveal-child">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="feature-card-title">AURA Neural-Drive AI</h3>
+                        <p class="feature-card-text">
+                            Hệ thống tự hành cấp độ 3 với 12 cảm biến LiDAR và mạng nơ-ron học sâu, phản ứng nhanh hơn người lái 0.15 giây.
+                        </p>
+                        <div class="feature-card-footer">
+                            <span>Chi tiết tính năng</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 2 -->
+                    <div class="feature-card reveal-child">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-car-battery"></i>
+                        </div>
+                        <h3 class="feature-card-title">Pin Thể Rắn Quantum</h3>
+                        <p class="feature-card-text">
+                            Mật độ năng lượng tăng 45%, loại bỏ hoàn toàn nguy cơ cháy nổ và duy trì 92% hiệu suất sau 1.000.000 km.
+                        </p>
+                        <div class="feature-card-footer">
+                            <span>Chi tiết tính năng</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 3 -->
+                    <div class="feature-card reveal-child">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-vr-cardboard"></i>
+                        </div>
+                        <h3 class="feature-card-title">Khoang Lái Cyber-Cockpit</h3>
+                        <p class="feature-card-text">
+                            Màn hình cong OLED 42-inch độ phân giải 8K, tích hợp kính hiển thị thông tin thực tế ảo AR-HUD góc siêu rộng.
+                        </p>
+                        <div class="feature-card-footer">
+                            <span>Chi tiết tính năng</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+
+                    <!-- Feature Card 4 -->
+                    <div class="feature-card reveal-child">
+                        <div class="feature-icon-box">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-card-title">Sạc Siêu Tốc Mega-Charge</h3>
+                        <p class="feature-card-text">
+                            Công nghệ sạc siêu áp 800V cho phép nạp thêm 300 km phạm vi di chuyển chỉ trong 10 phút nghỉ ngơi uống cà phê.
+                        </p>
+                        <div class="feature-card-footer">
+                            <span>Chi tiết tính năng</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: GALLERY (Khối Bộ Sưu Tập) -->
+        <section class="section gallery-section reveal" id="gallery">
+            <div class="section-container">
+                <div class="section-header text-center">
+                    <div class="section-badge">
+                        <i class="fa-regular fa-images"></i>
+                        <span>Bộ Sưu Tập Hình Ảnh</span>
+                    </div>
+                    <h2 class="section-title">
+                        Tuyệt Tác Điêu Khắc Ánh Sáng
+                    </h2>
+                    <p class="section-desc">
+                        Từng đường gân dập nổi và dải đèn LED ma trận biểu trưng cho sự tinh tế và khí chất thể thao tương lai.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item gallery-item-large reveal-child">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1200&auto=format&fit=crop" alt="AURA EV Profile" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Góc Nghiêng Khí Động Học</h4>
+                            <p>Tỷ lệ vàng cân đối hoàn mỹ</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-child">
+                        <img src="https://images.unsplash.com/photo-1541348263662-e0c8de4259ba?q=80&w=800&auto=format&fit=crop" alt="AURA EV Interior" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Khoang Lái Tối Giản</h4>
+                            <p>Chất liệu cao cấp tương lai</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-child">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=800&auto=format&fit=crop" alt="AURA EV Headlight" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Đèn Pha Ma Trận Laser</h4>
+                            <p>Tầm chiếu sáng thích ứng 600m</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal-child">
+                        <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?q=80&w=800&auto=format&fit=crop" alt="AURA EV Rear" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h4>Đuôi Xe Đèn LED Xuyên Suốt</h4>
+                            <p>Nhận diện thương hiệu độc bản</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Cột 1: Thông tin công ty -->
+            <div class="footer-col company-col">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-symbol"><i class="fa-solid fa-bolt-lightning"></i></span>
+                    <span class="logo-text">AURA<span>.EV</span></span>
+                </a>
+                <p class="company-desc">
+                    AURA Motors dẫn đầu cuộc cách mạng di chuyển thông minh với các thế hệ xe điện thuần khiết, thiết kế khí động học tương lai và trí tuệ nhân tạo tự hành tiên phong.
+                </p>
+                <ul class="company-contact-list">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Tầng 68, Bitexco Financial Tower, Số 2 Hải Triều, Q.1, TP. Hồ Chí Minh</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Hotline 24/7: <a href="tel:19008888" class="contact-highlight">1900 8888</a> (Miễn phí cước)</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Email: <a href="mailto:contact@aura-ev.vn">contact@aura-ev.vn</a></span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-certificate"></i>
+                        <span>GPĐKKD: 0318992688 do Sở KH&ĐT TP.HCM cấp</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Cột 2: Liên kết nhanh -->
+            <div class="footer-col links-col">
+                <h4 class="footer-col-title">Liên Kết Nhanh</h4>
+                <ul class="footer-nav-list">
+                    <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> Về thương hiệu AURA</a></li>
+                    <li><a href="#showcase"><i class="fa-solid fa-chevron-right"></i> Studio tùy biến màu sơn 360°</a></li>
+                    <li><a href="#features"><i class="fa-solid fa-chevron-right"></i> Công nghệ tự hành AI 3.0</a></li>
+                    <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Bộ sưu tập ngoại thất & nội thất</a></li>
+                    <li><a href="#specs"><i class="fa-solid fa-chevron-right"></i> Thông số kỹ thuật & pin Quantum</a></li>
+                    <li><a href="#test-drive"><i class="fa-solid fa-chevron-right"></i> Đăng ký lái thử tại nhà</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chevron-right"></i> Chính sách bảo hành pin 10 năm</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 3: Mạng xã hội & Bản tin VIP -->
+            <div class="footer-col social-col">
+                <h4 class="footer-col-title">Kết Nối Với AURA</h4>
+                <p class="social-desc">
+                    Theo dõi hành trình công nghệ của chúng tôi và nhận đặc quyền tham gia sự kiện ra mắt sớm.
+                </p>
+
+                <!-- Nhóm icon mạng xã hội -->
+                <div class="social-links-grid">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn facebook" aria-label="Facebook AURA EV">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn youtube" aria-label="YouTube AURA EV">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn tiktok" aria-label="TikTok AURA EV">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn instagram" aria-label="Instagram AURA EV">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" aria-label="LinkedIn AURA EV">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <!-- Form đăng ký nhận tin VIP -->
+                <div class="newsletter-box">
+                    <span class="newsletter-title"><i class="fa-regular fa-paper-plane"></i> Đăng ký nhận tin tức độc quyền</span>
+                    <form class="newsletter-form" id="newsletter-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn đã đăng ký nhận tin từ AURA EV!');">
+                        <input type="email" placeholder="Nhập địa chỉ email của bạn..." required class="newsletter-input">
+                        <button type="submit" class="newsletter-submit" aria-label="Gửi email đăng ký">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Chứng nhận & Tiêu chuẩn an toàn -->
+                <div class="footer-badges">
+                    <span class="cert-badge"><i class="fa-solid fa-shield-halved"></i> 5-Star Safety Euro NCAP</span>
+                    <span class="cert-badge"><i class="fa-solid fa-leaf"></i> 100% Zero Emission</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bản quyền & Pháp lý -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <p>&copy; 2026 AURA EV Motors Inc. Bản quyền thuộc về thương hiệu AURA. Đã đăng ký bảo hộ.</p>
+                <div class="footer-legal-links">
+                    <a href="#">Điều khoản sử dụng</a>
+                    <span class="divider">•</span>
+                    <a href="#">Chính sách quyền riêng tư</a>
+                    <span class="divider">•</span>
+                    <a href="#">Quy chuẩn bảo mật dữ liệu xe</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY ZALO CHAT WIDGET (Cố định góc dưới bên phải màn hình & Rung sau mỗi 5s) -->
+    <aside class="sticky-zalo-wrapper" id="sticky-zalo">
+        <a 
+            href="https://zalo.me" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="zalo-btn" 
+            id="zalo-chat-btn" 
+            aria-label="Chat với tư vấn viên qua Zalo"
+            title="Chat ngay qua Zalo để nhận tư vấn & ưu đãi"
+        >
+            <!-- Hiệu ứng sóng lan tỏa (Ripple Pulse) -->
+            <span class="zalo-pulse-wave wave-1"></span>
+            <span class="zalo-pulse-wave wave-2"></span>
+
+            <!-- Badge thông báo tin nhắn chưa đọc -->
+            <span class="zalo-badge">1</span>
+
+            <!-- Logo Zalo SVG chuẩn sắc nét -->
+            <div class="zalo-icon-box">
+                <svg class="zalo-svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 4C12.954 4 4 12.507 4 23c0 4.195 1.455 8.07 3.938 11.218L6 42l8.281-2.188C17.07 41.134 20.435 42 24 42c11.046 0 20-8.507 20-19S35.046 4 24 4z" fill="#0068FF"/>
+                    <path d="M14 28.5c0-.828.672-1.5 1.5-1.5h8.25l-7.75-9.25c-.328-.39-.422-.922-.25-1.406.172-.484.625-.844 1.156-.844h11.6c.828 0 1.5.672 1.5 1.5s-.672 1.5-1.5 1.5H20.25l7.75 9.25c.328.39.422.922.25 1.406-.172.484-.625.844-1.156.844H15.5c-.828 0-1.5-.672-1.5-1.5z" fill="#FFFFFF"/>
+                </svg>
+            </div>
+
+            <!-- Nhãn hiển thị chữ Chat Zalo trên Desktop -->
+            <span class="zalo-text">
+                <span class="zalo-text-sub">Tư vấn trực tuyến</span>
+                <span class="zalo-text-main">Chat Zalo</span>
+            </span>
+        </a>
+
+        <!-- Hộp gợi ý tự động (Tooltip Callout) -->
+        <div class="zalo-callout" id="zalo-callout">
+            <button type="button" class="zalo-callout-close" id="zalo-callout-close" aria-label="Đóng gợi ý">&times;</button>
+            <div class="callout-avatar">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="callout-content">
+                <strong>Chuyên viên AURA</strong>
+                <p>Bạn cần tư vấn về dòng xe & ưu đãi lái thử?</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Scroll Reveal JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
